@@ -110,8 +110,8 @@ function App() {
     });
   }
   return (
-    <div className="bg-gray-800 h-screen grid place-items-center">
-      <div className="bg-white w-96 p-4 rounded-md">
+    <div className="bg-gray-800 h-screen w-screen grid place-items-center">
+      <div className="bg-white lg:w-96 p-4 rounded-md">
       <div className="flex items-center justify-between gap-1">
         <input type="text" placeholder="Enter the location" className="text-xl border-b p-1 border-gray-200 font-semibold uppercase flex-1" ref={inputRef}/>
           <button onClick={fetchWeather}>
